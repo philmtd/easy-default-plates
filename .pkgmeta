@@ -1,0 +1,7 @@
+# BigWigs packager configuration: https://github.com/BigWigsMods/packager/wiki/Preparing-the-PackageMeta-File
+# Hidden files and folders (.github, .gitignore, ...) are never packaged.
+package-as: EasyDefaultPlates
+
+ignore:
+  - README.md
+  - Media/Logo.png

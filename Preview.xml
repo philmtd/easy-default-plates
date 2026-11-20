@@ -1,0 +1,37 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<!-- Settings list element, modeled after Blizzard's NamePlatePreviewTemplate. -->
+	<Frame name="EasyDefaultPlatesPreviewTemplate" mixin="EasyDefaultPlatesPreviewMixin" virtual="true">
+		<Size y="170"/>
+		<Frames>
+			<!-- Script nameplate base: provides the hit test stubs a nameplate unit frame expects. -->
+			<Button parentKey="NamePlate" inherits="NamePlateScriptBaseTemplate">
+				<Anchors>
+					<Anchor point="CENTER" x="0" y="-10"/>
+				</Anchors>
+			</Button>
+		</Frames>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture parentKey="Border" atlas="options_frame_child">
+					<Anchors>
+						<Anchor point="TOPLEFT" x="20" y="0"/>
+						<Anchor point="BOTTOMRIGHT" x="-20" y="0"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString parentKey="Label" inherits="GameFontHighlightSmall" justifyH="LEFT">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeKey="$parent.Border" x="10" y="-10"/>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnShow method="OnShow"/>
+			<OnHide method="OnHide"/>
+			<OnSizeChanged method="UpdateSize"/>
+		</Scripts>
+	</Frame>
+</Ui>

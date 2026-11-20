@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: Easy Default Plates
+## Notes: Simple tweaks for Blizzard's default nameplates (text sizes, name width, nameplate width). Draws no nameplates of its own.
+## Notes-deDE: Einfache Anpassungen für die Standard-Nameplates von Blizzard (Textgrößen, Namensbreite, Nameplate-Breite). Zeichnet keine eigenen Nameplates.
+## Version: @project-version@
+## Author: philmtd
+## IconTexture: Interface\AddOns\EasyDefaultPlates\Media\Icon
+## SavedVariables: EasyDefaultPlatesDB
+
+Locale.lua
+Core.lua
+Preview.lua
+Preview.xml
+Settings.lua

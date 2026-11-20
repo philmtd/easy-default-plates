@@ -1,0 +1,5 @@
+.DS_Store
+
+# Local packager output and secrets
+.release/
+.env
