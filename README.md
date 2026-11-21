@@ -8,6 +8,8 @@ The addon adjusts the stock nameplates and never draws nameplates of its own.
 The default nameplates in Forever are narrower and use larger text than in Classic Anniversary,
 so names and health text get truncated quickly. Easy Default Plates makes them fit again.
 
+Download on [CurseForge](https://www.curseforge.com/wow/addons/easy-default-plates).
+
 ## Features
 
 - Nameplate width

@@ -6,6 +6,7 @@
 ## Author: philmtd
 ## IconTexture: Interface\AddOns\EasyDefaultPlates\Media\Icon
 ## SavedVariables: EasyDefaultPlatesDB
+## X-Curse-Project-ID: 1818919
 
 Locale.lua
 Core.lua
